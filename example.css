@@ -1,0 +1,123 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color: aqua;
+    color: #6c1af0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    background-color: antiquewhite;
+}
+
+.main-first{
+    display: block;
+    padding: 1%;
+    color: #cfe0d6;
+    background-color: #c62828;
+    text-align: center;
+    width: 15%;
+    margin: 5%;
+    margin-left: 5%;
+}
+
+.main-second{
+    display: block;
+    background: #cb8b8b;
+    height: 20%;
+    width: 40%;
+    margin: 5%;
+}
+
+.main-second-1{
+    display: flex;
+    justify-content: space-between;
+    background: #8345cf;
+
+}
+
+.main-second-2{
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+.main-thurd{
+    display: block;
+    text-align: center;
+    background-color: #c62828c6;
+    width: 15%;
+    margin: 5%;
+    margin-right: 5%;
+
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    background: #cbc5c5;
+    padding: 4%;
+    border-radius: 30px;
+    height: 100px;
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.inner-img{
+    border-radius: 30px;
+    width: 90% ;
+    height: 90% ;
+
+}
+
+.search{
+    background: #b3a581;
+    padding: 1%;
+    border-radius: 30px;
+    margin-top: 6%;
+    margin-right: 5%;
+    height: 40%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#search{
+    border-inline-color: red;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    padding: 1%;
+    width: 90%;
+    height: 90%;
+
+}
+
+
+.higlight{
+    background-color: red;
+}
+
+.about-us{
+    background-color: rgb(143, 143, 245);
+}
+
+.skill{
+    background-color: rgb(35, 170, 179);
+}
+
+.hobbies{
+    background: #f54444;
+}
+
+.education{
+    background: #000;
+}
+

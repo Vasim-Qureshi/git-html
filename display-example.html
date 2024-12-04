@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Display Property Examples</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      margin-bottom: 20px;
+      padding: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .block {
+      display: block;
+      background-color: #f8d7da;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .inline {
+      display: inline;
+      background-color: #d4edda;
+      padding: 5px;
+    }
+
+    .inline-block {
+      display: inline-block;
+      background-color: #cce5ff;
+      padding: 10px;
+      margin-right: 5px;
+    }
+
+    .flex {
+      display: flex;
+      gap: 10px;
+      background-color: #fff3cd;
+      padding: 10px;
+    }
+
+    .flex div {
+      background-color: #f8d7da;
+      padding: 10px;
+      flex: 1;
+      text-align: center;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      background-color: #e2e3e5;
+      padding: 10px;
+    }
+
+    .grid div {
+      background-color: #d4edda;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .list-item {
+      display: list-item;
+      list-style-type: disc;
+      margin-left: 20px;
+      background-color: #f1f8ff;
+      padding: 5px;
+    }
+
+    .table {
+      display: table;
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #f8f9fa;
+    }
+
+    .table-row {
+      display: table-row;
+    }
+
+    .table-cell {
+      display: table-cell;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .caption {
+      display: table-caption;
+      font-weight: bold;
+      text-align: center;
+      background-color: #e9ecef;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Display Property Examples</h1>
+
+  <div class="container">
+    <h2>Display: Block</h2>
+    <div class="block">This is a block element.</div>
+    <div class="block">Another block element.</div>
+  </div>
+
+  <div class="container">
+    <h2>Display: Inline</h2>
+    <span class="inline">This is an inline element.</span>
+    <span class="inline">Another inline element.</span>
+  </div>
+
+  <div class="container">
+    <h2>Display: Inline-Block</h2>
+    <div class="inline-block">Inline-block 1</div>
+    <div class="inline-block">Inline-block 2</div>
+    <div class="inline-block">Inline-block 3</div>
+  </div>
+
+  <div class="container">
+    <h2>Display: List-Item</h2>
+    <div class="list-item">List item 1</div>
+    <div class="list-item">List item 2</div>
+    <div class="list-item">List item 3</div>
+  </div>
+
+  <div class="container">
+    <h2>Display: Table</h2>
+    <div class="table">
+      <div class="caption">Table Caption</div>
+      <div class="table-row">
+        <div class="table-cell">Row 1, Cell 1</div>
+        <div class="table-cell">Row 1, Cell 2</div>
+        <div class="table-cell">Row 1, Cell 3</div>
+      </div>
+      <div class="table-row">
+        <div class="table-cell">Row 2, Cell 1</div>
+        <div class="table-cell">Row 2, Cell 2</div>
+        <div class="table-cell">Row 2, Cell 3</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
